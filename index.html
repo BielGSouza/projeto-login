@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Projeto Login</title>
 </head>
 <body>
@@ -14,20 +15,20 @@
         <h1>Bem vindo ao Projeto Login</h1>
         <p>Coloque as suas informações abaixo para completar o seu cadastro</p>
         <div id="formulario">
-            <form action="login.php" method="post" autocomplete="on">
+            <form action="login.html" method="post" autocomplete="on">
                 <p>
-                    <label for="inome">Nome</label>
-                    <input type="text" name="nome" id="inome" autocomplete="name">
+                    <label for="inome"><span class="material-symbols-outlined">person</span></label>
+                    <input type="text" name="nome" id="inome" autocomplete="name" required maxlength="20" placeholder="Seu nome">
                 </p>
                 <p>
-                    <label for="isenha">Senha</label>
-                    <input type="password" name="senha" id="isenha" autocomplete="new-password">
+                    <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+                    <input type="password" name="senha" id="isenha" autocomplete="new-password" required minlength="8" placeholder="12345678">
                 </p>
                 <p>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="ENVIAR" id="enviar">
                 </p>
                 <p>
-                    <input type="button" value="Esqueceu a Senha">
+                    <input type="button" value="ESQUECEU A SENHA" id="lembrar">
                 </p>
             </form>
         </div>

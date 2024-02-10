@@ -20,33 +20,22 @@ body, html{
 }
 
 body{
-    background-image: linear-gradient(132deg, #1b004b, #5a0096, #1b004b);
+    background-image: linear-gradient(132deg, #11012e, #730bb8);
 }
 
 main{
     background-color: transparent;
-    width: 60%;
-    height: 70%;
+    width: 70%;
+    height: 80%;
     border-radius: 0px 0px 25px 25px;
     text-align: center;
     border: 2px solid var(--cor-4);
-    box-shadow: 0px 0px 150px 20px var(--cor-4);
+    box-shadow: 0px 0px 150px 8px var(--cor-4);
 
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
-
-h1{
-    color: white;
-    padding: 7px;
-}
-
-p{
-    color: white;
-    padding: 8px;
-    
 }
 
 #imagem{
@@ -59,3 +48,70 @@ p{
     bottom: 0px;
 }
 
+h1{
+    color: white;
+    padding: 7px;
+}
+
+main > p{
+    color: white;
+    padding: 8px ;
+}
+
+#formulario{
+    color: white;
+}
+
+input{
+    height: 31px;
+    border-radius: 0px;
+    border: 1px solid var(--cor-3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 6px 1px;
+}
+
+span{
+    background-color: var(--cor-3);
+    position: relative;
+    left: 5px;
+    top: 3px;
+    height: 34px;
+    width: 34px;
+}
+
+#enviar{
+    border: none;
+    width: 194px;
+    height: 31px;
+    position: relative;
+    left: 2px;
+    margin: 10px;
+
+    background-color: var(--cor-4);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#enviar:hover{
+    background-color: rgba(255, 255, 255, 0.863);
+    transition: 0.8s;
+}
+
+#lembrar{
+    border: none;
+    width: 194px;
+    height: 31px;
+    
+    position: relative;
+    left: 2px;
+
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+#lembrar:hover{
+    background-color: rgba(255, 255, 255, 0.568);
+    transition: 0.8s;
+}
