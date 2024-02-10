@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*tablets*/
+
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+    main{
+        
+    }
+
+    #imagem{
+        height: 290px;
+    }
+
+    input, #enviar, #lembrar{
+        display: inline-block;
+        width: 330px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    
+}
