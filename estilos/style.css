@@ -76,9 +76,10 @@ span{
     background-color: var(--cor-3);
     position: relative;
     left: 6px;
-    top: 3px;
-    height: 33px;
-    width: 33px;
+    top: 8px;
+    height: 24px;
+    width: 24px;
+    padding: 4px;
 }
 
 #enviar{

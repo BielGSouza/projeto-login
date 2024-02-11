@@ -17,6 +17,9 @@
         width: 300px;
     }
 
+    span{
+        left: 6px;
+    }
 }
 
 /* Desktop/Laptop */
@@ -54,9 +57,9 @@
         height: 37px;
     }
 
-    #span{
-        width: 39px;
-        height: 50px;
+    span{
+        padding: 7px;
+        left: 6px;
     }
 
     #imagem{
@@ -65,10 +68,6 @@
         left: 478px;
         width: 400px;
         height: 480px;
-    }
-    
-    .material-symbols-outlined{
-        padding: 3px;
     }
 }
 
@@ -105,7 +104,7 @@
     }
 
     span{
-        padding: 5px;
+        padding: 9px;
     }
 
     #enviar{
