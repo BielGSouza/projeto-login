@@ -23,7 +23,9 @@
 
 @media screen and (min-width:992px) and (max-width:1200px) {
     
-    
+    body, html{
+        transition: 0.7s;
+    }
 
     main{
         width: 900px;
@@ -64,13 +66,57 @@
         width: 400px;
         height: 480px;
     }
-
-   fieldset{
-    margin-top: 20px;
-    border: none;
-   }
-
+    
     .material-symbols-outlined{
         padding: 3px;
+    }
+}
+
+/* Telas Grandes*/
+
+@media screen and (min-width: 1200px) {
+    main{
+        width: 1200px;
+        border-radius: 25px 0px 0px 25px;
+    }
+
+    #formulario{
+        display: inline-block;
+        position: relative;
+        bottom: 115px;
+        left: -419px;
+        width: 518px;
+        text-align: center;
+    }
+
+    input, #enviar, #lembrar{
+        display: inline-block;
+        width: 430px;
+        height: 40px;
+    }
+
+    main > div > p{
+        padding-bottom: 40px;
+    }
+
+    h1{
+        font-size: 3em;
+        width: 500px;
+    }
+
+    span{
+        padding: 5px;
+    }
+
+    #enviar{
+        margin: 10px;
+    }
+
+    #imagem{
+        display: inline-block;
+        position: relative;
+        left: 647px;
+        width: 428px;
+        height: 570px;
     }
 }
